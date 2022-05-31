@@ -139,7 +139,8 @@ public class Utils extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
         wait.until(ExpectedConditions.textToBe(by, text));
     }
-    // 12. Take a Screenshot Method
+
+    // 12. Take a Screenshot Method....
     public static void takeSnapShot(String a){
         // Convert web driver object to TakeScreenshot
 
