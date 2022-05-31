@@ -29,10 +29,10 @@ public class Utils extends BasePage {
     public static void clickOnElement(By by) {
         driver.findElement(by).click();
     }
-    // attribute
+    // c.---- attribute
     public static void typeAttribute(By by, String text){
         driver.findElement(by).getAttribute(text);}
-    // c. Random date and time stamp method
+    // d. ----Random date and time stamp method
     public static String randomDate() {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyyHHmmss");
@@ -42,17 +42,17 @@ public class Utils extends BasePage {
 
     Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
-    // d.-----implicit wait method
+    // e.-----implicit wait method
     public static void implicitWait(int second) {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(second));
     }
 
-    // e.----- get text method
+    // f.----- get text method
     public static String getTextFromElement(By by) {
         return driver.findElement(by).getText();
     }
 
-    // Sleep method
+    // g. -----Sleep method
     public static void sleep (int time){
         try{
             Thread.sleep(1000*1);
@@ -61,7 +61,7 @@ public class Utils extends BasePage {
         }
     }
 
-    //f. -----explicit wait --
+    //i. -----explicit wait --
     // 1. to click element
     public static void driverWaitForClickable(By by, int time) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
@@ -158,11 +158,6 @@ public class Utils extends BasePage {
             e.printStackTrace();
         }
 
-
-
-
     }
-
-
 
 }

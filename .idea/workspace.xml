@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="" />
+    <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sapan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumAutomationOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailProductToFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductInComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResultOfRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/chromedriver_102.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart28052022230305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart30052022001752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart31052022192751.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration28052022200945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration29052022072559.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022183435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022194908.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022205931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211650.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022212402.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022223613.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022235247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/AddToCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/AddToCartInDesktop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/EmailProductToFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ProductInComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Registration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ResultOfRegistration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

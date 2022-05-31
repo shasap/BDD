@@ -69,22 +69,22 @@ public class TestSuit extends BaseTest{
 
     @Test (priority = 3)
     public void poll(){
-        //Unregistered user try to vote
+        //Unregistered user try to vote.
         homePage.unregisteredUserCommunityPoll();
 
-        // User click on register
+        // User click on register.
         homePage.clickOnRegisterButton();
 
-        // User fills registration form
+        // User fills registration form.
         registration.userShouldBeAbleToRegisterSuccessfully();
 
-        //User verify registration is completed
+        //User verify registration is completed.
         resultOfRegistration.verifyRegistrationIsCompleted();
 
-        // User continue as registered user
+        // User continue as registered user.
         resultOfRegistration.continueAsRegisteredUser();
 
-        //Registered user votes
+        //Registered user votes.
         homePage.registeredUserCommunityPoll();
     }
 
