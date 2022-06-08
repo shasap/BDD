@@ -53,7 +53,7 @@ public class Registration extends Utils {
         // enter confirm password........
         typeText(_confirmPassword, loadProperty.getProperty("confirmPassword"));
 
-        // click register
+        // click register..
         clickOnElement(_register);
 
     }
