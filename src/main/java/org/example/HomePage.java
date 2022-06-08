@@ -187,14 +187,9 @@ public class HomePage extends Utils {
 
     }
 
-    public void NewRelease(){
+    public void ClickOnNewRelease(){
         clickOnElement(_newRelease);
 
-    }
-
-    public void sortProductsZtoA(){
-        // On Homepage, select computer
-        clickOnElement(_computerLink);
     }
 
 

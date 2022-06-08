@@ -34,7 +34,7 @@ public class Registration extends Utils {
 
         // enter day of birth
         Select birthDay = new Select(driver.findElement(_dayOfBirth));
-        birthDay.selectByValue(loadProperty.getProperty("monthOfBirth"));
+        birthDay.selectByValue("6");
 
         // enter Month
         Select month = new Select(driver.findElement(_month));
@@ -54,12 +54,7 @@ public class Registration extends Utils {
         typeText(_confirmPassword, loadProperty.getProperty("confirmPassword"));
 
         // click register
-       // clickOnElement(_register);
-//        if (50 < 0) {
-//            System.out.println("jhfgjgf");
-//        } else {
-//            System.out.println("jhfgjfdg");
-//        }
+        clickOnElement(_register);
 
     }
 

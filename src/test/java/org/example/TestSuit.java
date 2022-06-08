@@ -91,34 +91,34 @@ public class TestSuit extends BaseTest{
         homePage.registeredUserCommunityPoll();
     }
 
-    @Test
+    @Test (priority = 4)
     public void userShouldBeAbleToSortList(){
         homePage.getProductTitles();
     }
 
-    @Test
+    @Test (priority = 5)
     public void userShouldBeAbleToNavigateFacebookLinkAndVerifyURL(){
         homePage.navigateFacebookLinkAndVerifyURL();
     }
 
-    @Test
-    public void userShouldBeAbleToSearchedSeeProducts(){
+    @Test (priority = 6)
+    public void userShouldBeAbleToSearchAndVerifyNikeProducts(){
         homePage.searchAndVerifyProductsTitle();
         nikeProducts.productsContainNikeTitle();
     }
-    @Test
+    @Test (priority = 7)
     public void checkingVoteAlert(){
         homePage.voteAlert();
     }
-    @Test
-    public void newsNewRelease(){
-        homePage.NewRelease();
+    @Test (priority = 8)
+    public void userShouldBeAbleToVerifyCommentIsAddedLast(){
+        homePage.ClickOnNewRelease();
         nopCommerceNewRelease.verifyCommentAddedAtLast();
 
     }
-    @Test
+    @Test (priority = 9)
     public void sortDesktopZtoA(){
-        homePage.sortProductsZtoA();
+        homePage.clickOnComputerLink();
         computer.sortDesktopByZtoA();
     }
 }
