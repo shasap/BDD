@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class DriverManager extends Utils{
     //Select Browser
-    String browserName = "chrome";
+    String browserName = "firefox";
 
     // Open Browser Method
     public void openUrlInBrowser(){

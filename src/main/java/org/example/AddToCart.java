@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class AddToCart extends Utils{
+public class AddToCart extends Utils {
 
     private By _processor = By.id("product_attribute_1");
     private By _ram = By.id("product_attribute_2");
@@ -17,7 +17,7 @@ public class AddToCart extends Utils{
     private By _actualShoppingCartMessage = By.xpath("//h1[.='Shopping cart']");
     private By _actualBuildYourOwnComputerText = By.className("product-name");
 
-    public void SelectCustomisedAndAddProductToCart(){
+    public void SelectCustomisedAndAddProductToCart() {
 
         // Select processor 2.2GHz
         Select processor = new Select(driver.findElement(_processor));
@@ -47,10 +47,10 @@ public class AddToCart extends Utils{
         String expectedShoppingCart = "Shopping cart";
 
         // Actual Shopping cart text
-        String  actualShoppingCart = getTextFromElement(_actualShoppingCartMessage);
+        String actualShoppingCart = getTextFromElement(_actualShoppingCartMessage);
 
         // Verify user can see shopping cart text
-        Assert.assertEquals(actualShoppingCart,expectedShoppingCart,"Shopping cart not displayed");
+        Assert.assertEquals(actualShoppingCart, expectedShoppingCart, "Shopping cart not displayed");
 
         // Expected text of 'Build your own computer'
         String expectedBuildYourOwnComputer = "Build your own computer";
@@ -59,7 +59,7 @@ public class AddToCart extends Utils{
         String actualBuildYourOwnComputer = getTextFromElement(_actualBuildYourOwnComputerText);
 
         // Verify user can see selected product name in shopping cart
-        Assert.assertEquals(actualBuildYourOwnComputer,expectedBuildYourOwnComputer,"Build your computer not visible");
+        Assert.assertEquals(actualBuildYourOwnComputer, expectedBuildYourOwnComputer, "Build your computer not visible");
 
     }
 }

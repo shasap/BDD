@@ -3,6 +3,9 @@ package org.example;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
+import static java.lang.Integer.getInteger;
+import static java.lang.Integer.parseInt;
+
 
 public class Registration extends Utils {
 
@@ -43,6 +46,7 @@ public class Registration extends Utils {
         // enter year
         Select year = new Select(driver.findElement(_year));
         year.selectByValue("1991");
+       // year.selectByValue(Integer.parseInt(loadProperty.getProperty("birthYear")));
 
         // enter email
         typeText(_email,loadProperty.getProperty("emailFirstPart")  + randomDate() + loadProperty.getProperty("emailSecondPart"));

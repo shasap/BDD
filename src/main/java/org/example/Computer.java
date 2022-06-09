@@ -11,13 +11,12 @@ import java.util.Collections;
 import java.util.List;
 
 
-
 public class Computer extends Utils {
     private By _deskop = By.xpath("//h2 /a[@href=\"/desktops\" ]");
     private By _sortDesktop = By.id("products-orderby");
     private By _actualProductList = By.cssSelector("[class=\"product-title\"]");
 
-    public void sortDesktopByZtoA(){
+    public void sortDesktopByZtoA() {
         // click on desktop
         clickOnElement(_deskop);
         // check current url contains desktops
@@ -25,26 +24,37 @@ public class Computer extends Utils {
         // Select dropdown position and select ZtoA
         Select position = new Select(driver.findElement(_sortDesktop));
         position.selectByValue("6");
+        // Array list to store actual string value
+        ArrayList<String> actualArrayList = new ArrayList<>();
 
-        ArrayList<String> actualArrayList=new ArrayList<>();
-        actualArrayList.add("Build your own computer");
-        actualArrayList.add("Digital Storm VANQUISH 3 Custom Performance PC");
-        actualArrayList.add("Lenovo IdeaCentre 600 All-in-One PC");
-        System.out.println("actual arraylist");
-        for(String actualStr: actualArrayList){
-            System.out.println(actualStr);
+        //ArrayList to store actual Web element value
+        ArrayList<WebElement>elementList = new ArrayList<WebElement>(driver.findElements(By.className("product-title")));
+        // To print actual web element ArrayList
+        System.out.println("Actual list displayed after sorting Z to A : ");
+        for (WebElement we: elementList) {
+            actualArrayList.add(we.getText());
         }
+        System.out.println(actualArrayList);
 
-        ArrayList<String> expectedArrayList=new ArrayList<>();
-        expectedArrayList.add("Lenovo IdeaCentre 600 All-in-One PC");
-        expectedArrayList.add("Digital Storm VANQUISH 3 Custom Performance PC");
-        expectedArrayList.add("Build your own computer");
-        System.out.println("expected arraylist");
-        for(String expectedStr: expectedArrayList){
-            System.out.println(expectedStr);
+        // To print expected Web element Array list (correct Z to A order)
+
+        //Arraylist for expected product title - we are going to store in string (new String Arraylist)
+        ArrayList<String>expectedSortedList = new ArrayList<>();
+        // Now we have to add product title to expectedSortedList from actual arrayList
+        // We use for each loop
+        for (String s:actualArrayList) {
+            expectedSortedList.add(s);
         }
+        // Now Sort expectedSortedList in alphabetical order( if it is not already in alphabetical order)
+        Collections.sort(expectedSortedList);
+        // Reverse alphabetical order (Z to A)
+        Collections.reverse(expectedSortedList);
+        // Print expected sorted Z to A list
+        System.out.println("Expected list after Z to A should be : ");
+        System.out.println(expectedSortedList);
 
-        Assert.assertEquals(actualArrayList,expectedArrayList,"arraylist elements are not in Z to A  order");
+        // Verify product display in Z to A order
+        Assert.assertEquals(actualArrayList,expectedSortedList,"List element not sorted in Z to A order");
 
     }
 }

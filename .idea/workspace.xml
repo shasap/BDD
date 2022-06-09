@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.SelectCustomisedAndAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="METHOD_NAME" value="SelectCustomisedAndAddToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSuit.newUserRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
@@ -74,24 +95,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
       <option name="METHOD_NAME" value="newUserRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.newsNewRelease" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="newsNewRelease" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSearchedSeeProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +130,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSearchedSeeProducts" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
         <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.newUserRegistration" />
+        <item itemvalue="TestNG.TestSuit.SelectCustomisedAndAddToCart" />
         <item itemvalue="TestNG.TestSuit.sortDesktopZtoA" />
-        <item itemvalue="TestNG.TestSuit.newsNewRelease" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSearchedSeeProducts" />
+        <item itemvalue="TestNG.TestSuit.newUserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -177,26 +180,26 @@
     </state>
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654435600988" />
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1653842650010" />
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1654666101313">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380082" />
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654666101313" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1654666101313">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654666101313" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1654666101312">
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654666101312" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1654666101313">
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380081" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654666101313" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1654633647554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

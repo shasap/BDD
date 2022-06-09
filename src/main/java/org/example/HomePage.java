@@ -142,6 +142,7 @@ public class HomePage extends Utils {
 
                 // Switching to Child window
                 driver.switchTo().window(ChildWindow);
+                driverWaitsUntilContainsUrl(10,"https://www.facebook.com/nopCommerce");
                 String actualURL = driver.getCurrentUrl();
                 String expectedURL = "https://www.facebook.com/nopCommerce";
                 Assert.assertEquals(actualURL,expectedURL,"Actual URL is not matching expected URL.");

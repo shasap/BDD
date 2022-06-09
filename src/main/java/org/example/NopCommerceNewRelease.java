@@ -58,7 +58,8 @@ public class NopCommerceNewRelease extends Utils {
         // find total number of comments
         List<WebElement> commentTitleList =  driver.findElements(_lastCommentTitle);
 
-        // array size is one less than actual comment because array start with zero
+        // array size is one less than actual number of comments because array start with zero
+        // Last comment store in last size of Array, means if there are 5 comments- last comment will be stored in array size 4
         int numberOfComments = commentTitleList.size()-1;
         // print out total number of comments for confirmation
         System.out.println("Total number of comments is "+numberOfComments);
