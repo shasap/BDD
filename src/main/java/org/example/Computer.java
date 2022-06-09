@@ -53,7 +53,7 @@ public class Computer extends Utils {
         System.out.println("Expected list after Z to A should be : ");
         System.out.println(expectedSortedList);
 
-        // Verify product display in Z to A order
+        // Verify product display in Z to A order..
         Assert.assertEquals(actualArrayList,expectedSortedList,"List element not sorted in Z to A order");
 
     }
