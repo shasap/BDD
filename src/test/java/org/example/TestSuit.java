@@ -11,6 +11,9 @@ public class TestSuit extends BaseTest{
     ProductInComputer productInComputer = new ProductInComputer();
     AddToCartInDesktop addToCartInDesktop = new AddToCartInDesktop();
     AddToCart addToCart = new AddToCart();
+    Computer computer = new Computer();
+    NikeProducts nikeProducts = new NikeProducts();
+    NopCommerceNewRelease nopCommerceNewRelease = new NopCommerceNewRelease();
 
     @Test (priority = -1)
     public void newUserRegistration(){
@@ -88,5 +91,34 @@ public class TestSuit extends BaseTest{
         homePage.registeredUserCommunityPoll();
     }
 
+    @Test (priority = 4)
+    public void userShouldBeAbleToSortList(){
+        homePage.getProductTitles();
+    }
 
+    @Test (priority = 5)
+    public void userShouldBeAbleToNavigateFacebookLinkAndVerifyURL(){
+        homePage.navigateFacebookLinkAndVerifyURL();
+    }
+
+    @Test (priority = 6)
+    public void userShouldBeAbleToSearchAndVerifyNikeProducts(){
+        homePage.searchAndVerifyProductsTitle();
+        nikeProducts.productsContainNikeTitle();
+    }
+    @Test (priority = 7)
+    public void checkingVoteAlert(){
+        homePage.voteAlert();
+    }
+    @Test (priority = 8)
+    public void userShouldBeAbleToVerifyCommentIsAddedLast(){
+        homePage.ClickOnNewRelease();
+        nopCommerceNewRelease.verifyCommentAddedAtLast();
+
+    }
+    @Test (priority = 9)
+    public void sortDesktopZtoA(){
+        homePage.clickOnComputerLink();
+        computer.sortDesktopByZtoA();
+    }
 }

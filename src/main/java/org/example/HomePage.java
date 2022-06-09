@@ -1,9 +1,12 @@
 package org.example;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import java.util.*;
 
 
 public class HomePage extends Utils {
@@ -18,6 +21,16 @@ public class HomePage extends Utils {
     private By _vote = By.cssSelector("[id=\"vote-poll-1\"]");
     private By _actualVoteMessage = By.cssSelector("[class=\"poll-vote-error\"]");
     private By _registeredActualMessage = By.cssSelector("[class=\"poll-total-votes\"]");
+    private By _featuredProductTitle = By.xpath("//div[contains(@class,'product-grid')]//div[@class='item-box']//h2");
+    private By _facebookLink = By.cssSelector("[href=\"http://www.facebook.com/nopCommerce\"]");
+    private By _search = By.cssSelector("[class=\"search-box-text ui-autocomplete-input\"]");
+    private By _submit = By.cssSelector("[type=\"submit\"]");
+    private By _newRelease = By.xpath("//a[@href=\"/nopcommerce-new-release\"and @class=\"read-more\"]");
+    private By _computer = By.xpath("//ul[@class=\"top-menu notmobile\"]//a[@href=\"/computers\"]");
+
+
+    LoadProperty loadProperty = new LoadProperty();
+
 
     public void unregisteredUserCommunityPoll(){
         //In community poll section, click on good
@@ -101,4 +114,87 @@ public class HomePage extends Utils {
 
     }
 
+    public void getProductTitles(){
+        // get featured product Title
+        List<WebElement> productTitles = driver.findElements(_featuredProductTitle);
+        for (WebElement e: productTitles){
+            System.out.println(e.getText());
+        }
+
+    }
+
+    public void navigateFacebookLinkAndVerifyURL(){
+        //click on facebook link
+        clickOnElement(_facebookLink);
+        // window handler command to direct that current window is main window
+        String MainWindow=driver.getWindowHandle();
+
+        // To handle all new opened window.
+        Set<String> s1=driver.getWindowHandles();
+        Iterator<String> i1=s1.iterator();
+
+        while(i1.hasNext())
+        {
+            String ChildWindow=i1.next();
+
+            if(!MainWindow.equalsIgnoreCase(ChildWindow))
+            {
+
+                // Switching to Child window
+                driver.switchTo().window(ChildWindow);
+                driverWaitsUntilContainsUrl(10,"https://www.facebook.com/nopCommerce");
+                String actualURL = driver.getCurrentUrl();
+                String expectedURL = "https://www.facebook.com/nopCommerce";
+                Assert.assertEquals(actualURL,expectedURL,"Actual URL is not matching expected URL.");
+
+                // Closing the Child Window.
+                driver.close();
+            }
+        }
+        // Switching to Parent window i.e Main Window.
+            driver.switchTo().window(MainWindow);
+    }
+
+    public void searchAndVerifyProductsTitle(){
+        // Type nike in search box to find nike product
+        typeText(_search,loadProperty.getProperty("productName"));
+
+        // Click Submit
+        clickOnElement(_submit);
+
+
+
+        }
+
+    public void voteAlert(){
+
+        // click on vote
+        clickOnElement(By.cssSelector("[id=\"vote-poll-1\"]"));
+
+        // Switching to Alert
+        Alert alert = driver.switchTo().alert();
+
+        // Capturing alert message.
+        String actualAlertMessage= driver.switchTo().alert().getText();
+
+        // Expected alert message.
+        String expectedAlertMessage = "Please select an answer";
+
+        // Verify Expected and Actual message
+        Assert.assertEquals(actualAlertMessage,expectedAlertMessage,"Select an answer message not displayed");
+
+        // Accepting alert
+        alert.accept();
+
+    }
+
+    public void ClickOnNewRelease(){
+        clickOnElement(_newRelease);
+
+    }
+
+
 }
+
+
+

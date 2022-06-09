@@ -2,57 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sapan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumAutomationOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailProductToFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductInComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResultOfRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/chromedriver_102.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart28052022230305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart30052022001752.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart31052022192751.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration28052022200945.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration29052022072559.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022183435.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022194908.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022205931.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211602.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211650.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022212402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022223613.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022235247.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/AddToCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/AddToCartInDesktop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/EmailProductToFriend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ProductInComputer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Registration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ResultOfRegistration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Drivers" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -143,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.poll" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.sortDesktopZtoA" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="poll" />
+      <option name="METHOD_NAME" value="sortDesktopZtoA" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.referProductToFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -171,7 +130,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="referProductToFriend" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
         <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.poll" />
-        <item itemvalue="TestNG.TestSuit.referProductToFriend" />
         <item itemvalue="TestNG.TestSuit.SelectCustomisedAndAddToCart" />
+        <item itemvalue="TestNG.TestSuit.sortDesktopZtoA" />
         <item itemvalue="TestNG.TestSuit.newUserRegistration" />
       </list>
     </recent_temporary>
@@ -212,39 +171,40 @@
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653756730316" />
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653767925242" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1653948862212">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1654544534980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1653948862212" />
-    <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653842650010">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1654544534980" />
+    <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654435600988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654435600988" />
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1653842650010" />
-    <state width="1306" height="220" key="GridCell.Tab.0.bottom" timestamp="1654029379673">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653830977980" />
-    <state width="1306" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654029379673" />
-    <state width="1306" height="220" key="GridCell.Tab.0.center" timestamp="1654029379673">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380082" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653830977980" />
-    <state width="1306" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654029379673" />
-    <state width="1306" height="220" key="GridCell.Tab.0.left" timestamp="1654029379673">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653830977979" />
-    <state width="1306" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654029379673" />
-    <state width="1306" height="220" key="GridCell.Tab.0.right" timestamp="1654029379673">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1654788966950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653830977980" />
-    <state width="1306" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654029379673" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1653859315980">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380081" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1654633647554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653825867060" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1653859315980" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1654633647554" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1653803624911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,6 +213,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1653858112634" />
+    <state x="273" y="25" key="new project wizard" timestamp="1654035370071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="273" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1654035370071" />
     <state x="389" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1653861254739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,7 +227,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuit.java</url>
-          <line>48</line>
+          <line>51</line>
           <properties class="org.example.TestSuit" method="SelectCustomisedAndAddToCart">
             <option name="EMULATED" value="true" />
           </properties>
