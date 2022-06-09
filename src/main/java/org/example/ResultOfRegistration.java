@@ -24,7 +24,7 @@ public class ResultOfRegistration extends Utils{
 
     public void continueAsRegisteredUser(){
 
-        // Continue as registered user
+        // Continue as registered user..
         clickOnElement(_continue);
 
     }
