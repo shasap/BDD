@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredGETAndPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +43,8 @@
       <recent name="C:\Users\sapan\IdeaProjects\SeleniumAutomationOne\src\test\java\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssuredGETAndPost.it_should_create_new_post">
-    <configuration name="ExampleApiTests.baseUriReturnsSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExampleApiTests" />
-      <option name="METHOD_NAME" value="baseUriReturnsSuccess" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestAssuredGETAndPost.it_should_create_new_post" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.readData">
+    <configuration name="RestAssuredGETAndPost.it_should_create_new_post" type="TestNG" temporary="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.newUserRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -126,20 +108,78 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="newUserRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.newUserRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="METHOD_NAME" value="newUserRegistration" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea " />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="readData" type="TestNG">
+      <module name="SeleniumAutomationOne" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dcloud=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.readData" />
+      <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_create_new_post" />
+      <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_get_all_comments" />
+      <item itemvalue="TestNG.RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" />
+      <item itemvalue="TestNG.TestSuit.newUserRegistration" />
+      <item itemvalue="TestNG.TestSuit.newUserRegistration (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.newUserRegistration (1)" />
+        <item itemvalue="TestNG.TestSuit.newUserRegistration" />
         <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_create_new_post" />
         <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_get_all_comments" />
         <item itemvalue="TestNG.RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" />
-        <item itemvalue="TestNG.ExampleApiTests.baseUriReturnsSuccess" />
-        <item itemvalue="TestNG.TestSuit" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +206,10 @@
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653756730316" />
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653767925242" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655060406318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060406318" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1654544534980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,25 +219,41 @@
     </state>
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654435600988" />
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1653842650010" />
-    <state width="1323" height="248" key="GridCell.Tab.0.bottom" timestamp="1655056460208">
+    <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1655060195884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380082" />
+    <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060195884" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1655060146607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060146607" />
+    <state x="550" y="114" key="EnvironmentVariablesDialog" timestamp="1655060226667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="114" key="EnvironmentVariablesDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060226667" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1655060216460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060216460" />
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom" timestamp="1655060316868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
     <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.center" timestamp="1655056460208">
+    <state width="1323" height="248" key="GridCell.Tab.0.center" timestamp="1655060316868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
+    <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
     <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.left" timestamp="1655056460208">
+    <state width="1323" height="248" key="GridCell.Tab.0.left" timestamp="1655060316868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
+    <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
     <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.right" timestamp="1655056460208">
+    <state width="1323" height="248" key="GridCell.Tab.0.right" timestamp="1655060316868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380081" />
+    <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
     <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1655056629992">
       <screen x="0" y="0" width="1366" height="728" />
@@ -216,19 +276,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1653861254739" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuit.java</url>
-          <line>51</line>
-          <properties class="org.example.TestSuit" method="SelectCustomisedAndAddToCart">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
