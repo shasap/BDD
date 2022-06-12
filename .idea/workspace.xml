@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredGETAndPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AddToCartInDesktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Registration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,79 @@
       <recent name="C:\Users\sapan\IdeaProjects\SeleniumAutomationOne\src\test\java\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit">
+  <component name="RunManager" selected="TestNG.RestAssuredGETAndPost.it_should_create_new_post">
+    <configuration name="ExampleApiTests.baseUriReturnsSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExampleApiTests" />
+      <option name="METHOD_NAME" value="baseUriReturnsSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredGETAndPost.it_should_create_new_post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredGETAndPost" />
+      <option name="METHOD_NAME" value="it_should_create_new_post" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredGETAndPost.it_should_get_all_comments" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredGETAndPost" />
+      <option name="METHOD_NAME" value="it_should_get_all_comments" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAutomationOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredGETAndPost" />
+      <option name="METHOD_NAME" value="when_passing_id_then_it_should_only_return_data_for_that_postId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
@@ -66,85 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.SelectCustomisedAndAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="SelectCustomisedAndAddToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.newUserRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="newUserRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.sortDesktopZtoA" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="sortDesktopZtoA" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumAutomationOne" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToNavigateFacebookLinkAndVerifyURL" />
+        <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_create_new_post" />
+        <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_get_all_comments" />
+        <item itemvalue="TestNG.RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" />
+        <item itemvalue="TestNG.ExampleApiTests.baseUriReturnsSuccess" />
         <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.SelectCustomisedAndAddToCart" />
-        <item itemvalue="TestNG.TestSuit.sortDesktopZtoA" />
-        <item itemvalue="TestNG.TestSuit.newUserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -180,31 +175,31 @@
     </state>
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654435600988" />
     <state x="422" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1653842650010" />
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1654788966950">
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom" timestamp="1655056460208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380082" />
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1654788966950">
+    <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
+    <state width="1323" height="248" key="GridCell.Tab.0.center" timestamp="1655056460208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1654788966950">
+    <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
+    <state width="1323" height="248" key="GridCell.Tab.0.left" timestamp="1655056460208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380080" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1654788966950">
+    <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
+    <state width="1323" height="248" key="GridCell.Tab.0.right" timestamp="1655056460208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1654444380081" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654788966950" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1654633647554">
+    <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1655056629992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653825867060" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1654633647554" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1655056629992" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1653803624911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
