@@ -11,24 +11,27 @@ import java.net.URL;
 import java.time.Duration;
 
 public class DriverManager extends Utils {
+    //object of loadProperty classs so that you can read data from your testconfig file
     LoadProperty loadProperty = new LoadProperty();
     DesiredCapabilities caps = new DesiredCapabilities();
 
     public final String AUTOMATE_USERNAME = loadProperty.getProperty("bsUsername");
     public final String AUTOMATE_ACCESS_KEY = loadProperty.getProperty("bsAccessKey");
     public final String BrowserStackURL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
+    //locally  run cloud= false browserStack(cloud) = true
     boolean cloud = Boolean.parseBoolean(System.getProperty("cloud"));
-    //boolean cloud = false;
+
+    //boolean cloud = true;
 
 
     //Select Browser
-    //String browserName = "firefox";
+   // String browserName = "chrome";
     String browserName = System.getProperty("browser");
 
 
     // Open Browser Method
     public void openUrlInBrowser() {
-
+        //cloude = true then run in the cloud
         if (cloud) {
             System.out.println("running cloud");
 
@@ -42,7 +45,25 @@ public class DriverManager extends Utils {
                 caps.setCapability("browserstack.local", "false");
                 caps.setCapability("browserstack.selenium_version", "4.0.0");
 
-            } else {
+            }
+            else if(browserName.equalsIgnoreCase("firefox")){
+                caps.setCapability("os", "OS X");
+                caps.setCapability("os_version", "Catalina");
+//                caps.setCapability("browser", "Firefox");
+                caps.setCapability("browser_version", "99.0");
+//                caps.setCapability("browserstack.local", "false");
+//                caps.setCapability("browserstack.selenium_version", "4.0.0");
+            }
+            else if (browserName.equalsIgnoreCase("edge")){
+                caps.setCapability("os", "OS X");
+                caps.setCapability("os_version", "Monterey");
+                caps.setCapability("browser", "Edge");
+                caps.setCapability("browser_version", "99.0");
+                caps.setCapability("browserstack.local", "false");
+                caps.setCapability("browserstack.selenium_version", "4.0.0");
+
+            }
+            else {
                 System.out.println("Your browser stack browser name is wrong or there is a connection issue");
             }
 

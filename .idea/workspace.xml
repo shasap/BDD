@@ -4,6 +4,47 @@
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart09062022161655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart12062022200128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart28052022230305.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart30052022001752.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/SelectCustomisedAndAddToCart31052022192751.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration05062022145345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration08062022061741.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration08062022062249.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration08062022062441.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration28052022200945.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newUserRegistration29052022072559.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newsNewRelease08062022000151.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newsNewRelease08062022000359.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newsNewRelease08062022000601.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newsNewRelease08062022000944.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/newsNewRelease08062022001445.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll08062022061835.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022183435.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022194908.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022205931.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211602.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022211650.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022212402.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022223613.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/poll29052022235247.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/referProductToFriend08062022061758.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA08062022053734.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA08062022053814.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA08062022060331.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA08062022061056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA08062022062725.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022161014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022161136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022161307.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022161753.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022162346.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/sortDesktopZtoA09062022162650.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/userShouldBeAbleToNavigateFacebookLinkAndVerifyURL09062022162245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/userShouldBeAbleToNavigateFacebookLinkAndVerifyURL09062022162605.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/userShouldBeAbleToNavigateFacebookLinkAndVerifyURL09062022162718.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshots/userShouldBeAbleToSearchedSeeProducts07062022224326.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/TestConfig.Properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
     </list>
@@ -43,7 +84,7 @@
       <recent name="C:\Users\sapan\IdeaProjects\SeleniumAutomationOne\src\test\java\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.readData">
+  <component name="RunManager" selected="TestNG.TestSuit.newUserRegistration">
     <configuration name="RestAssuredGETAndPost.it_should_create_new_post" type="TestNG" temporary="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
@@ -80,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.SelectCustomisedAndAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAutomationOne" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredGETAndPost" />
-      <option name="METHOD_NAME" value="when_passing_id_then_it_should_only_return_data_for_that_postId" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="METHOD_NAME" value="SelectCustomisedAndAddToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +172,7 @@
       <option name="METHOD_NAME" value="newUserRegistration" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea " />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -Dcloud=false" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -144,7 +185,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="readData" type="TestNG">
+    <configuration name="TestSuit.newUserRegistration2" type="TestNG" temporary="true">
+      <module name="SeleniumAutomationOne" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="METHOD_NAME" value="newUserRegistration" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea Dbrowser=firefox" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSuite" type="TestNG">
       <module name="SeleniumAutomationOne" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
@@ -166,20 +235,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.readData" />
+      <item itemvalue="TestNG.testSuite" />
+      <item itemvalue="TestNG.TestSuit.newUserRegistration (1)" />
       <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_create_new_post" />
       <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_get_all_comments" />
-      <item itemvalue="TestNG.RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" />
       <item itemvalue="TestNG.TestSuit.newUserRegistration" />
-      <item itemvalue="TestNG.TestSuit.newUserRegistration (1)" />
+      <item itemvalue="TestNG.TestSuit.newUserRegistration2" />
+      <item itemvalue="TestNG.TestSuit.SelectCustomisedAndAddToCart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.newUserRegistration (1)" />
         <item itemvalue="TestNG.TestSuit.newUserRegistration" />
+        <item itemvalue="TestNG.TestSuit.newUserRegistration2" />
+        <item itemvalue="TestNG.TestSuit.SelectCustomisedAndAddToCart" />
         <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_create_new_post" />
         <item itemvalue="TestNG.RestAssuredGETAndPost.it_should_get_all_comments" />
-        <item itemvalue="TestNG.RestAssuredGETAndPost.when_passing_id_then_it_should_only_return_data_for_that_postId" />
       </list>
     </recent_temporary>
   </component>
@@ -206,10 +276,11 @@
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1653756730316" />
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653767925242" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655060406318">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655234174485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060406318" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655062657989" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1655234174485" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1654544534980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -223,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060195884" />
-    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1655060146607">
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1655061020716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060146607" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655061020716" />
     <state x="550" y="114" key="EnvironmentVariablesDialog" timestamp="1655060226667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,26 +306,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060216460" />
-    <state width="1323" height="248" key="GridCell.Tab.0.bottom" timestamp="1655060316868">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1655234127861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
-    <state width="1323" height="248" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.center" timestamp="1655060316868">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655234127861" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1655234127855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
-    <state width="1323" height="248" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.left" timestamp="1655060316868">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655234127855" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1655234127855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
-    <state width="1323" height="248" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
-    <state width="1323" height="248" key="GridCell.Tab.0.right" timestamp="1655060316868">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655234127855" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1655234127861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-148.1920.1040@0.0.1366.728" timestamp="1655060316868" />
-    <state width="1323" height="248" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655056460208" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655234127861" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1655056629992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
