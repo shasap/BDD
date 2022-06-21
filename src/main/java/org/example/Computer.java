@@ -24,7 +24,7 @@ public class Computer extends Utils {
         // Select dropdown position and select ZtoA
         Select position = new Select(driver.findElement(_sortDesktop));
         position.selectByValue("6");
-        // Array list to store actual string value
+        // Array list to store actual string value..
         ArrayList<String> actualArrayList = new ArrayList<>();
 
         //ArrayList to store actual Web element value
