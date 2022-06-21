@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaeb49b6-3a6b-40af-8667-95d9e54b711c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/category.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MyStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/MyStepDefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/RunCuke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -20,7 +20,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 
 public class Utils extends BasePage {
 
-    // a.-----typeText or Send key method
+    // a.-----typeText or Send key method..
     public static void typeText(By by, String text) {
         driver.findElement(by).sendKeys(text);
     }
