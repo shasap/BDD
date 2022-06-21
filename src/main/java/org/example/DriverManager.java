@@ -25,8 +25,8 @@ public class DriverManager extends Utils {
 
 
     //Select Browser
-   // String browserName = "chrome";
-    String browserName = System.getProperty("browser");
+    String browserName = "chrome";
+    //String browserName = System.getProperty("browser");
 
 
     // Open Browser Method

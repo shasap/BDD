@@ -27,6 +27,8 @@ public class HomePage extends Utils {
     private By _submit = By.cssSelector("[type=\"submit\"]");
     private By _newRelease = By.xpath("//a[@href=\"/nopcommerce-new-release\"and @class=\"read-more\"]");
     private By _computer = By.xpath("//ul[@class=\"top-menu notmobile\"]//a[@href=\"/computers\"]");
+    private By _categoryHeader = By.xpath("//h1");
+
 
 
     LoadProperty loadProperty = new LoadProperty();
@@ -188,11 +190,29 @@ public class HomePage extends Utils {
 
     }
 
+
     public void ClickOnNewRelease(){
         clickOnElement(_newRelease);
 
     }
 
+    public void verifyIAmOnHomePage()
+    {
+        driver.getCurrentUrl().contains("https://demo.nopcommerce.com/");
+    }
+
+    public void clickOnTopHeaderLinkOnHomePage(String topHeaderLinkName){
+        driver.findElement(By.xpath("//ul[@class=\"top-menu notmobile\"]//a[contains(text(),'"+topHeaderLinkName+"')]")).click();
+        String expectedH1=topHeaderLinkName;
+        String actualH1=driver.findElement(_categoryHeader).getText();
+        Assert.assertEquals(actualH1,expectedH1,"you are not on correct page");
+    }
+
+    public void verifyCategoryUrl(String categoryUrl){
+
+    driverWaitsUntilContainsUrl(5,categoryUrl);
+
+    }
 
 }
 
